@@ -1,7 +1,7 @@
 import { isAddress } from 'ethers/lib/utils';
-import { Address, OwnerInfo } from '@/types';
-import { Web3DomainsV2 } from '@/types/contracts';
-import { defaultKeys } from '@/utils/defaults';
+import { Address, OwnerInfo } from '../types';
+import { Web3DomainsV2 } from '../types/contracts';
+import { defaultKeys } from '../utils/defaults';
 
 export type GetOwnerProps = {
   domain: string;

@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers';
-import { Web3DomainsV2 } from '@/types/contracts';
+import { Web3DomainsV2 } from '../types/contracts';
 
 export const hashname =
   (contract: Web3DomainsV2) =>

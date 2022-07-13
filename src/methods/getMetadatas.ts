@@ -1,6 +1,6 @@
-import { MetaData } from '@/types';
-import { Web3DomainsV2 } from '@/types/contracts';
-import { defaultKeys } from '@/utils/defaults';
+import { MetaData } from '../types';
+import { Web3DomainsV2 } from '../types/contracts';
+import { defaultKeys } from '../utils/defaults';
 
 export type GetMetadatasProps = {
   keys: typeof defaultKeys[number][];

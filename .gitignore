@@ -8,5 +8,3 @@ typechain-types
 dist
 build
 *DS_Store
-
-src/types

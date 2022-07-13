@@ -1,7 +1,7 @@
-import { balanceOf, getDomain, getDomains, getMetadata, getMetadatas, getOwner, hashname } from '@/methods';
-import { AstarDomainSDK, ConfigType } from '@/types';
-import { Web3DomainsV2 } from '@/types/contracts';
-import { defaultConfig } from '@/utils/defaults';
+import { balanceOf, getDomain, getDomains, getMetadata, getMetadatas, getOwner, hashname } from '../methods';
+import { AstarDomainSDK, ConfigType } from '../types';
+import { Web3DomainsV2 } from '../types/contracts';
+import { defaultConfig } from '../utils/defaults';
 import { Contract, providers } from 'ethers';
 import { abi } from '../../contracts/Web3DomainsV2.json';
 

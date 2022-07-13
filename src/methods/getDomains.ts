@@ -1,5 +1,5 @@
-import { Address } from '@/types';
-import { Web3DomainsV2 } from '@/types/contracts';
+import { Address } from '../types';
+import { Web3DomainsV2 } from '../types/contracts';
 
 export const getDomains =
   (contract: Web3DomainsV2) =>
