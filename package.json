@@ -1,6 +1,6 @@
 {
   "name": "astrdomaints-ethers",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "astrdomainjs-ethers with TypeScript compatiblity",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
