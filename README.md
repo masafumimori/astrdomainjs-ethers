@@ -1,4 +1,7 @@
 # Astar Web3 Domains TS
+![npm](https://img.shields.io/npm/v/astrdomaints-ethers)
+![npm](https://img.shields.io/npm/dm/astrdomaints-ethers?color=green)
+![GitHub top language](https://img.shields.io/github/languages/top/masafumimori/astrdomaints-ethers)
 
 Nodejs SDK for interacting with astr domains
 
@@ -8,7 +11,7 @@ Github: https://github.com/masafumimori/astrdomaints-ethers
 
 ## Installation
 
-```
+```shell
 npm install astrdomaints-ethers
 yarn add astrdomaints-ethers
 ```
@@ -19,7 +22,7 @@ yarn add astrdomaints-ethers
 import { ethers } from 'ethers';
 import React, { useEffect, useState } from 'react';
 
-import { getAstrDomainSDK, Address, ConfigType } from 'astrdomaints-ethers';
+import { getAstrDomainSDK, ConfigType } from 'astrdomaints-ethers';
 
 // this is optional
 const config: ConfigType = {
