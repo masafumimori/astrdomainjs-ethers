@@ -5,10 +5,6 @@
 
 Nodejs SDK for interacting with astr domains
 
-Npm: https://www.npmjs.com/package/astrdomaints-ethers
-
-Github: https://github.com/masafumimori/astrdomaints-ethers
-
 ## Installation
 
 ```shell
